@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+In the console is telling you that is a conflict with login. I think that you should declare also in the index.html thymeleaf. Something like:
+
+<html
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+NOW YOU CAN LOGIN OR NOT
+
+<div>Web Application. Passed parameter : th:text="${message}"</div>
+<div>xs:annotation="${message}</div>
+
+
+
+</body>
+</html>
