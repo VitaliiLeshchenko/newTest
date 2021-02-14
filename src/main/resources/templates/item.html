@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ITEM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Here you can add new Item to catalog.</h1>
+
+<form action="/item" method="post">
+    <label for="sku">Item_SKU:</label>
+    <input type="text" id="sku" name="sku"><br><br>
+
+    <label for="description">description:</label>
+    <input type="text" id="description" name="description"><br><br>
+
+    <label for="sale_code">sale_code:</label>
+    <input type="text" id="sale_code" name="sale_code"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
+</html>
